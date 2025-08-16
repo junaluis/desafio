@@ -1,4 +1,4 @@
-Este documento describe una implementación simple y efectiva de un programa de ‘Amigo Secreto’ usando HTML y JavaScript. El usuario ingresa nombres, los agrega a una lista y, al presionar un botón o la tecla Enter, el sistema selecciona un participante de forma aleatoria. Se incluyen el código fuente, explicación de la lógica, buenas prácticas de accesibilidad, pruebas y mejoras opcionales.
+Este documento describe una implementación simple y efectiva de un programa de ‘Amigo Secreto’ usando HTML y JavaScript. El usuario ingresa nombres, los agrega a una lista y, al presionar un botón o la tecla Enter, el sistema selecciona un participante de forma aleatoria. Se incluyen el código fuente, explicación de la lógica.
 
 1, Guarda los nombres de los amigos que se van agregando. 
 const amigos = [];
