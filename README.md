@@ -1,7 +1,9 @@
-Guarda los nombres de los amigos que se van agregando. 
+Este documento describe una implementación simple y efectiva de un programa de ‘Amigo Secreto’ usando HTML y JavaScript. El usuario ingresa nombres, los agrega a una lista y, al presionar un botón o la tecla Enter, el sistema selecciona un participante de forma aleatoria. Se incluyen el código fuente, explicación de la lógica, buenas prácticas de accesibilidad, pruebas y mejoras opcionales.
+
+1, Guarda los nombres de los amigos que se van agregando. 
 const amigos = [];
 
-Si el usuario presiona Enter dentro del input, se ejecuta agregarAmigo().
+2. Si el usuario presiona Enter dentro del input, se ejecuta agregarAmigo().
 input.addEventListener('keydown', (e) => {
   if (e.key === 'Enter') {
     agregarAmigo();
@@ -9,6 +11,6 @@ input.addEventListener('keydown', (e) => {
 });
 
 
-Hace que las funciones se puedan usar desde HTML con onclick="agregarAmigo()" o onclick="sortearAmigo()".
+3, Hace que las funciones se puedan usar desde HTML con onclick="agregarAmigo()" o onclick="sortearAmigo()".
 window.agregarAmigo = agregarAmigo;
 window.sortearAmigo = sortearAmigo;
